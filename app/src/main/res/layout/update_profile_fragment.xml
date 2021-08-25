@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/loginregister"
+        android:scaleType="fitXY"/>
+
+
+    <com.example.promena.voter.Extras.RoundedImageView
+        android:id="@+id/user_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/logo"/>
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="108dp"
+                android:layout_marginEnd="134dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_camera_alt_black_24dp" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_user"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/camera"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ed_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/text_mobile"
+            android:backgroundTint="@color/app_theme"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/centurygothic"
+            android:hint="User Name"
+            android:textColor="@color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_mobile"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text_user"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ed_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/text_mobile"
+            android:backgroundTint="@color/app_theme"
+            android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/centurygothic"
+            android:hint="Mobile No"
+            android:inputType="number"
+            android:maxLength="12"
+            android:textColor="@color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_mail"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text_mobile"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ed_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="mail id"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress"
+            android:fontFamily="@font/centurygothic"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/app_theme"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_gender"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text_mail"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ed_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gender"
+            android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+            android:drawablePadding="10dp"
+            android:inputType="text"
+            android:fontFamily="@font/centurygothic"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/app_theme"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/text_gender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/login_button"
+        android:fontFamily="@font/centurygothic"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

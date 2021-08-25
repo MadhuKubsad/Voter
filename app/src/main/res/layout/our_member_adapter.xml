@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#52FFFFFF">
+
+        <RelativeLayout
+            android:id="@+id/click_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <com.example.promena.voter.Extras.RoundedImageView
+                android:id="@+id/user_pic"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="5dp"
+                android:src="@drawable/userimage"/>
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:fontFamily="@font/centurygothic"
+                android:textColor="@color/light_black"
+                android:layout_marginRight="10dp"
+                android:maxLines="3"
+                android:textSize="15sp"
+                android:text="gfdj"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/date_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_name"
+                android:layout_marginLeft="90dp"
+                android:fontFamily="@font/centurygothic"
+                android:textColor="#7A7979"
+                android:textSize="12sp"
+                android:text="jhgdajsh"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/members"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date_time"
+                android:layout_alignEnd="@+id/date_time"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="-135dp"
+                android:layout_marginBottom="5dp"
+                android:drawableLeft="@drawable/ic_attachment_black_24dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/centurygothic"
+                android:padding="5dp"
+                android:text="hdk"
+                android:textColor="@color/light_black"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

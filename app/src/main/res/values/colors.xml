@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="app_theme">#EC5146</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#f50000</color>
+    <color name="light_red">#FF5252</color>
+    <color name="popup_bg_color">#ebebeb</color>
+    <color name="green">#95D37C</color>
+    <color name="sky_blue">#4794be</color>
+    <color name="blue_view">#1565C0</color>
+    <color name="btn_color">#841a30</color>
+    <color name="txt_color">#4b4b4b</color>
+    <color name="text_color">#429d54</color>
+    <color name="lastupdated">#ff8566</color>
+    <color name="black_trans">#a5000000</color>
+    <color name="tabs">#2b2a2a</color>
+    <color name="tabbs">#e6e6e6</color>
+    <color name="tabcolor">#e9400d</color>
+    <color name="bck">#e4e4e4</color>
+    <color name="card_transparent_black">#48000000</color>
+    <color name="black">#000000</color>
+    <color name="light_black">#393838</color>
+    <color name="light_grey">#c9c7c7</color>
+    <color name="demo">#125df4</color>
+    <color name="card1">#FF5722</color>
+    <color name="card2">#9C27B0</color>
+    <color name="card3">#009688</color>
+
+</resources>

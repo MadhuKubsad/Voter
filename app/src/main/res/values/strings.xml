@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ANJST</string>
+    <string name="tag_home" translatable="false">TAB_HOME</string>
+    <string name="tag_chat" translatable="false">TAB_CHAT</string>
+    <string name="tab_home_title" translatable="false">Home</string>
+    <string name="tab_chat_title" translatable="false">Chat</string>
+    <string-array name="tab_tags" translatable="false">
+        <item>@string/tag_home</item>
+        <item>@string/tag_chat</item>
+    </string-array>
+</resources>

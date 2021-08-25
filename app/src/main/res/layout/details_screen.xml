@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginregister"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <com.example.promena.voter.Extras.RoundedImageView
+                android:id="@+id/enrollpic"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+
+
+                    <TextView
+                        android:id="@+id/e_edit_user"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="Update Profile"
+                        android:layout_marginTop="35dp"
+                        android:textAlignment="center"
+                        android:paddingTop="5dp"
+                        android:fontFamily="@font/centurygothic"
+                        android:textColor="@color/white"
+                        android:background="@drawable/button2"
+                        android:drawableBottom="@drawable/ic_mode_edit_black_24dp"/>
+
+                <TextView
+                    android:id="@+id/e_delete"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Delete"
+                    android:background="@drawable/delete_button"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="center"
+                    android:paddingTop="5dp"
+                    android:visibility="gone"
+                    android:fontFamily="@font/centurygothic"
+                    android:drawableBottom="@drawable/ic_delete_sweep_black_24dp"/>
+
+
+
+            </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:visibility="gone"
+          android:layout_marginBottom="10dp">
+
+          <TextView
+              android:layout_width="100dp"
+              android:layout_height="wrap_content"
+              android:text="Id"
+              android:fontFamily="@font/centurygothic"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="10dp"
+              />
+
+          <TextView
+              android:id="@+id/erollment_id"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginRight="10dp"
+              android:fontFamily="@font/centurygothic"/>
+
+      </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Assembly"
+                    android:fontFamily="@font/centurygothic"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/e_assembly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/centurygothic"/>
+
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Ward"
+                android:fontFamily="@font/centurygothic"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/e_ward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/centurygothic"/>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Booth"
+                    android:fontFamily="@font/centurygothic"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/e_booth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/centurygothic"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:fontFamily="@font/centurygothic"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/e_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/centurygothic"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:fontFamily="@font/centurygothic"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/e_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/centurygothic"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mail Id"
+                    android:fontFamily="@font/centurygothic"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/e_mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/centurygothic"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile No"
+                    android:fontFamily="@font/centurygothic"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/e_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/centurygothic"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/address_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:fontFamily="@font/centurygothic"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/e_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/centurygothic"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Voter Id"
+                    android:fontFamily="@font/centurygothic"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/e_voter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/centurygothic"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/count_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total Members"
+                    android:fontFamily="@font/centurygothic"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/e_members"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/centurygothic"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp">
+
+
+                <TextView
+                    android:visibility="visible"
+                    android:id="@+id/e_add_member"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add Clients"
+                    android:textAlignment="center"
+                    android:background="@drawable/button2"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:paddingTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/centurygothic"
+                    android:layout_marginLeft="10dp"
+                    android:drawableBottom="@drawable/ic_add_black_24dp"/>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/e_viewall"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="View Clients"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="center"
+                    android:paddingTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/centurygothic"
+                    android:background="@drawable/button2"
+                    android:textColor="@color/white"
+                    android:drawableBottom="@drawable/ic_device_hub_black_24dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

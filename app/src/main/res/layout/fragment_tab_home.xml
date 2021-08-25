@@ -1,0 +1,46 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@color/white"
+    android:paddingTop="10dp">
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/direct_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        &lt;!&ndash;<Button&ndash;&gt;
+            &lt;!&ndash;android:id="@+id/start_chat_activity"&ndash;&gt;
+            &lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;
+            &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;
+            &lt;!&ndash;android:text="@string/fragment_tab_home_new_chat_activity_button_label" />&ndash;&gt;
+
+    </LinearLayout>-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fa_chatNew"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right|bottom"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/light_black"
+        android:src="@drawable/ic_person_black_24dp"/>
+</android.support.design.widget.CoordinatorLayout>

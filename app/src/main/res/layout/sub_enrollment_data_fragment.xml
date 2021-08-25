@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/loginregister">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Under xyz name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/centurygothic"
+        android:textColor="@color/blue_view"
+        android:textStyle="bold"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/sub_enrollment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/name"
+        android:background="@drawable/loginregister">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_new"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="39dp"
+        android:backgroundTint="@color/blue_view"
+        />
+
+</RelativeLayout>
